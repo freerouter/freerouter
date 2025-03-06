@@ -1,6 +1,15 @@
 <p align="center"><a href="https://freerouter.ai" target="_blank"><img src="https://raw.githubusercontent.com/freerouter/freerouter/refs/heads/main/public/img/logo-orange.svg" alt="Laravel Logo" width="300"></a></p>
 
-<a href="https://github.com/freerouter/freerouter/actions"><img src="https://github.com/freerouter/freerouter/actions/tests.yml/badge.svg" alt="Build Status"></a>
+<p align="center">
+  <a href="https://github.com/freerouter/freerouter/actions/workflows/tests.yml">
+    <img src="https://github.com/freerouter/freerouter/actions/workflows/tests.yml/badge.svg" alt="tests">
+  </a>
+  <a href="https://github.com/freerouter/freerouter/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/freerouter/freerouter" alt="License">
+  </a>
+</p>
+
+---
 
 **The truly free, self-hostable alternative to OpenRouter.ai**
 
