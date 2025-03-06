@@ -14,6 +14,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 
     Route::resource('api-keys', ApiKeyController::class);
+    Route::resource('providers', \App\Http\Controllers\ProviderController::class);
+    Route::post('providers/{provider}/configure', [\App\Http\Controllers\ProviderController::class, 'configure'])->name('providers.configure');
 });
 
 require __DIR__.'/settings.php';

@@ -38,3 +38,19 @@ export interface User {
     updated_at: string;
     [key: string]: unknown; // This allows for additional properties...
 }
+
+export interface Provider {
+    id: number;
+    name: string;
+    display_name: string;
+    slug: string;
+    is_active: boolean;
+    config: Record<string, unknown>;
+    icon: {
+        url: string;
+    }
+    created_at: string;
+    updated_at: string;
+
+}
+
